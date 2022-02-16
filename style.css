@@ -1,0 +1,150 @@
+
+.nav-first{
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    padding-bottom: 30px;
+}
+.nav-first ul{
+    float: right;
+}
+
+.nav-first ul li{
+    margin: auto ;
+    display: inline;
+    vertical-align: middle;
+}
+.nav-first ul li a{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.nav-first ul li a:hover{
+    text-decoration: underline;
+}
+
+.nav-first ul li img{
+    display: inline;
+    vertical-align: middle;
+    border-radius: 50%;  
+}
+
+img{
+display: block;
+margin: auto;
+}
+
+form{
+    margin-top: 30px;
+}
+
+#search{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid silver;
+}
+
+form .center-button{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+form .center-button button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+form button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+
+footer{
+    display: inline-block;
+    width: 100%;
+    background: #f2f2f2;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #70757a;
+}
+footer a{
+    color: #70757a;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer div{
+    margin: auto;
+    width: 100%;
+    height: 30px;
+
+}
+
+footer > div:first-child{
+    border-bottom: 1px solid #dadce0;
+}
+
+
+footer p {
+    vertical-align: center;
+    padding-left: 60px;
+}
+
+#navfirst{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#navsecond{
+    margin: auto;
+    display: inline-block;
+}
+
+
+#navfirst ul li{
+    padding: 0px 10px 0px 10px;
+    display: inline;
+    vertical-align: middle;
+}
+
+
+#navsecond{
+    float: right;
+    padding-right: 60px;
+}
+
+#navsecond ul li{
+    padding: 0px 10px 0px 10px;
+    display: inline;
+    vertical-align: middle;
+}
+
+
+
+
